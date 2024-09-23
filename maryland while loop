@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  int x, y;
+  
+  x = 1;
+  y = 2;
+
+
+  while (x < 10) {
+  //cout << "the x value is: " << x << endl;
+  //cout << "the y value is: " << y << " ";
+  cout << x << " " << y << endl;
+  x += 1;
+  y += 1;
+  }
+}
